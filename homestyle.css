@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar {
+    background-color: #1976D2;
+}
+
+ul.navbar li {
+    display: inline-block;
+    padding: 20px
+}
+
+ul.navbar li:hover {
+    background-color:  #0D47A1;
+}
+
+li a {
+    text-decoration: none;
+    color: #424242;
+    padding: 40px 20px 10px 10px;
+}
