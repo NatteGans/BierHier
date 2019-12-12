@@ -1,0 +1,41 @@
+* {
+    padding-left: 5px;
+}
+/*BACKGROUND COLOR TEMPORARILY*/
+body {
+    background-color: salmon;
+}
+/*BACKGROUND COLOR TEMPORARILY*/
+
+section {
+    padding-top: 50px;
+}
+h1 {
+    text-decoration: underline;
+}
+h3{
+    margin: 1px;
+}
+p{
+    margin-top: 8px;
+}
+.MainTextRecepten {
+    width: 40%;
+    float: left;
+    padding-right: 120px;
+}
+
+.MainReceptenTekst2 {
+    padding-top: 40px;
+}
+img {
+    float: left;
+    height: 240px;
+}
+
+.wafelthing, .parmezaanthing {
+    padding-top: 5px;
+}
+.imagesReceptenPagina {
+    padding-top: 90px;
+}
