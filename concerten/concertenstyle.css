@@ -1,0 +1,63 @@
+div.wrapper {
+    margin: auto;
+    width: 1390px;
+}
+
+div.list {
+    float: right;
+}
+
+
+div.images {
+    padding-left: 160px;
+    padding-top: 20px;
+
+}
+
+.meer {
+    padding-top: 75px;
+    float: left;
+}
+
+.i1 {
+  padding:20px;
+}
+
+.i2 {
+    padding:20px;
+}
+
+.i3 {
+    padding:20px;
+}
+
+.i4 {
+    padding:20px;
+}
+
+#text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 110%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.text1 {
+    text-decoration: none;
+    font-family: "Roboto Light", sans-serif;
+    text-transform: uppercase;
+    color:black;
+    font-size: 250%;
+}
+
+.text2 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 110%;
+    top:68%;
+    left:51%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
