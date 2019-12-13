@@ -2,6 +2,38 @@
     padding-left: 5px;
 }
 
+/* HEADER/NAVBAR */
+ul.navbar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+ul.navbar li:hover {
+    background-color:  #0D47A173;
+}
+
+li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    padding: 40px 20px 10px 10px;
+}
+
+.header {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header ul {
+    background-image: url(../img/headerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+}
+
+/* END OF HEADER/NAVBAR */
+
 /*BACKGROUND COLOR TEMPORARILY*/
 body {
     background-color: salmon;
