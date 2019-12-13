@@ -1,11 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
 .header {
+    position: relative;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -24,15 +29,12 @@ h1 {
     margin: 20px 20px 20px 0px;
 }
 
-iframe {
-}
-
 .wrapper {
     display: inline-block;
 }
 
 .content-wrapper {
-    height: 100vh;
+    height: 100%;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -43,10 +45,11 @@ iframe {
     vertical-align: top;
 }
 
-.newsframe {
-    width: 45%;
+
+iframe {
+    height: 70vh;
     display: inline-block;
-    vertical-align: top;
+    width: 45%;
 }
 
 .article {
@@ -80,13 +83,27 @@ h3 {
     margin: 20px 20px 20px 0px;
 }
 
-.stageframe {
-    display: inline-block;
-    width: 45%;
-}
-
 .stage-article {
     display: inline-block;
     width: 45%;
     vertical-align: top;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    background-color: #757575;
+}
+
+.footerlist {
+    font-size: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
