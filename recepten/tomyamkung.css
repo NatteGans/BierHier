@@ -36,7 +36,7 @@ li a {
 
 /*BACKGROUND COLOR TEMPORARILY*/
 body {
-    background-color: salmon;
+    background-color: beige;
 }
 /*BACKGROUND COLOR TEMPORARILY*/
 
@@ -53,8 +53,29 @@ p {
 .tomyamkungtext {
     width: 40%;
 }
+.thumbnailTomYangKung {
+    padding-top: 10px;
+    width: 50%;
+    float: right;
+
+}
 
 .imagesPrepTomYamKung {
     padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 60px;
+}
+.numberOne {
+    padding-left: 170px;
+}
+
+.numbertwo {
+    padding-left: 290px;
+}
+
+.numberthree {
+    padding-left:270px;
+}
+
+.numberfour {
+    padding-left: 290px;
 }
