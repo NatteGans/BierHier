@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Bier Hier Home</title>
     <link rel="stylesheet" href="homestyle.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <div class="header">
@@ -13,12 +15,12 @@
         <img src="img/Logo.png" alt="">
 
         <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="concerten/concerten.html">Concerten</a></li>
-            <li><a href="sport/sport.html">Sport</a></li>
-            <li><a href="recepten/recepten/html">Recepten</a></li>
-            <li><a href="overons/overons.html">Over Ons</a></li>
-            <li><a href="contact/contact.html">Contact</a></li>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="concerten"><a href="concerten/concerten.html">Concerten</a></li>
+            <li class="sport"><a href="sport/sport.html">Sport</a></li>
+            <li class="recepten"><a href="recepten/recepten/html">Recepten</a></li>
+            <li class="overons"><a href="overons/overons.html">Over Ons</a></li>
+            <li class="contact"><a href="contact/contact.html">Contact</a></li>
         </ul>
     </div>
 
@@ -28,8 +30,9 @@
             <h1>Nieuws uit Flevoland</h1>
             <iframe class="newsframe" src="https://www.omroepflevoland.nl/nieuws#1"></iframe>
             <div class="article">
-            <h2>Almere</h2>
-            <p>
+                <h2>Almere</h2>
+                <img src="img/ally_trap.jpg" alt="Ally Trap">
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Amet mattis vulputate enim nulla aliquet porttitor
@@ -43,16 +46,15 @@
                     Varius duis at consectetur lorem donec massa sapien. Non
                     nisi est sit amet. Bibendum neque egestas congue quisque
                     egestas.
-            </p>
-            <img src="img/ally_trap.jpg" alt="Ally Trap">
+                </p>
             </div>
         </div>
         <div class="stage wrapper">
             <h3>Stage lopen in Almere</h3>
             <iframe class="stageframe"
-            src="https://www.stagemarkt.nl/Zoeken/Home/Resultaten?t=&s=&z=&l=Nederland&b=False&c=&lw=&n=&rg=&i=&pg=1&srt=&e=false&ToonOpKaart=False&ViewType=Lijst&SeedValue=0&LeerbedrijfId=0&p=almere"></iframe>
+                src="https://www.stagemarkt.nl/Zoeken/Home/Resultaten?t=&s=&z=&l=Nederland&b=False&c=&lw=&n=&rg=&i=&pg=1&srt=&e=false&ToonOpKaart=False&ViewType=Lijst&SeedValue=0&LeerbedrijfId=0&p=almere"></iframe>
             <div class="stage-article">
-            <p>
+                <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Laoreet sit amet cursus sit amet dictum sit amet.
@@ -64,24 +66,42 @@
                     id cursus metus aliquam eleifend. Arcu risus quis varius
                     quam quisque id diam vel quam. Sed sed risus pretium quam
                     vulputate dignissim suspendisse.
-            </p>
+                </p>
+                <img src="img/Stage.png" alt="">
             </div>
         </div>
 
     </div>
 
     <footer>
-        <div>
-        <ul class="footerlist">
-            <a href="#"><li>- Home</li></a>
-            <a href="concerten/concerten.html"><li>- Concerten</li></a>
-            <a href="sport/sport.html"><li>- Sport</li></a>
-            <a href="recepten/recepten.html"><li>- Recepten</li></a>
-            <a href="overons/overons.html"><li>- Over Ons</li></a>
-            <a href="contact/contact.html"><li>- Contact</li></a>
-        </ul>
+        <div class="footer">
+            <div class="footerlinks">
+                <ul class="footerlist">
+                    <a href="#">
+                        <li>- Home</li>
+                    </a>
+                    <a href="concerten/concerten.html">
+                        <li>- Concerten</li>
+                    </a>
+                    <a href="sport/sport.html">
+                        <li>- Sport</li>
+                    </a>
+                    <a href="recepten/recepten.html">
+                        <li>- Recepten</li>
+                    </a>
+                    <a href="overons/overons.html">
+                        <li>- Over Ons</li>
+                    </a>
+                    <a href="contact/contact.html">
+                        <li>- Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <span class="copyright">Copyright © ROC Flevoland 2019</span> 
+            <img src="img/ally_trap.jpg" alt="">
         </div>
     </footer>
-    
+
 </body>
+
 </html>
