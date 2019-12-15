@@ -92,6 +92,8 @@ p {
   margin-bottom: 15px;
 }
 
+/* START OF FOOTER */
+
 footer {
   height: 200px;
   margin-top: 50px;
@@ -137,3 +139,5 @@ footer img {
     top: 50%;
     transform: translateY(-35%);
 }
+
+/* END OF FOOTER */
