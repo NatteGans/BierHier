@@ -68,12 +68,30 @@ img {
     padding-top: 90px;
 }
 
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 200px;
+}
+
 /* START OF FOOTER */
+.alltheOthercontent {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    width: 100%;
+}
 
 footer {
     height: 200px;
     margin-top: 50px;
+    width: 100%;
     background-color: #757575;
+    position: absolute;
+    bottom: 0;
   }
   
   .footer {
@@ -104,16 +122,9 @@ footer {
   
   .copyright {
       position: absolute;
+      bottom: 10px;
       left: 50%;
       transform: translateX(-50%);
-  }
-  
-  footer img {
-      width: 200px;
-      position: absolute;
-      right: 10%;
-      top: 50%;
-      transform: translateY(-35%);
   }
   
   /* END OF FOOTER */
