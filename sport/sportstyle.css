@@ -7,6 +7,10 @@ ul.navbar li {
     display: inline-block;
     padding: 20px;
 }
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
 
 ul.navbar li:hover {
     background-color:  #0D47A173;
@@ -66,9 +70,55 @@ img {
     height: 240px;
 }
 
-.wafelthing, .parmezaanthing {
-    padding-top: 5px;
+
+/* START OF FOOTER */
+.alltheOthercontent {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    width: 100%;
 }
-.imagesReceptenPagina {
-    padding-top: 90px;
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #757575;
+    position: absolute;
+    bottom: 0;
 }
+
+.footer {
+    position: relative;
+}
+
+.footerlist {
+    font-size: 17px;
+    top: 50%;
+    padding-top: 45px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer a:hover {
+    color: #343434;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* END OF FOOTER */
