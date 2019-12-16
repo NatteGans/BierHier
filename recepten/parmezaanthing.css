@@ -49,6 +49,13 @@ p {
     margin:2px;
 }
 
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+    margin: auto;
+    width: 1450px;
+}
+
 .parmezaantext {
     width: 40%;
 }

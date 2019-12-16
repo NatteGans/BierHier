@@ -89,8 +89,63 @@ div.images {
     position: absolute;
     font-weight: bold;
     font-size: 110%;
-    top:68%;
+    top:75%;
     left:51%;
     color: white;
     transform: translate(-50%,-50%);
 }
+/* START OF FOOTER */
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    background-color: #757575;
+}
+
+.footer {
+    position: relative;
+}
+
+.footerlist {
+    font-size: 17px;
+    top: 50%;
+    padding-top: 45px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer a:hover {
+    color: #343434;
+}
+
+.copyright {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:10px;
+    font-size: 110%;
+}
+
+footer img {
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-35%);
+}
+
+/* END OF FOOTER */
+body {
+                       font-family: 'Lato', sans-serif;
+                       font-size: 20px;
+                   }
