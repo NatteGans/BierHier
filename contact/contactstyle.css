@@ -1,6 +1,9 @@
 * {
-    font-family: "Arial", "sans-serif";
     line-height: 24px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
 }
 
 .header {
@@ -60,7 +63,6 @@ div.form-group5 {
     padding-left: 40px;
 }
 textarea {
-    display: inline-block;
     float: right;
     width: 250px;
     padding-right: 50px;
@@ -81,7 +83,6 @@ textarea {
 }
 
 div h1 {
-    paddin: 0;
     margin: 0px;
 }
 
