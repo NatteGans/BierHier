@@ -1,0 +1,73 @@
+* {
+    font-family: "Arial", "sans-serif";
+    line-height: 24px;
+}
+
+h1{
+    margin: 15px;
+    padding-left: 23px;
+}
+h2{
+    padding-left: 13px;
+}
+div.form-group {
+    width: 300px;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+iframe{
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.float {
+    float: right;
+}
+
+div.form-group5 {
+    width: 425px;
+    padding: 20px;
+    padding-left: 40px;
+}
+textarea {
+    display: inline-block;
+    float: right;
+    width: 250px;
+    padding-right: 50px;
+
+}
+.Button {
+    position: absolute;
+    left: 413px;
+    bottom: -32px;
+    margin-bottom: -33px;
+}
+
+.Gegevens{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+
+}
+
+div h1 {
+    paddin: 0;
+    margin: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(166,166,166);
+    padding-top: 40px;
+    margin-top: 330px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
