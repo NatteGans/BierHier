@@ -78,3 +78,53 @@ p {
 .numberfour {
     padding-left: 270px;
 }
+
+
+/* START OF FOOTER */
+.alltheOthercontent {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+footer {
+    height: 200px;
+    margin-top: 50px;
+    background-color: #757575;
+}
+
+.footer {
+    position: relative;
+}
+
+.footerlist {
+    font-size: 17px;
+    top: 50%;
+    padding-top: 45px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+footer ul {
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+footer a:hover {
+    color: #343434;
+}
+
+.copyright {
+    bottom: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* END OF FOOTER */
