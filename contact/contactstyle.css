@@ -1,0 +1,102 @@
+* {
+    font-family: "Arial", "sans-serif";
+    line-height: 24px;
+}
+
+.header {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header ul {
+    background-image: url(../img/headerbg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-weight: 700;
+  }
+  
+  ul.navbar li {
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  ul.navbar li:hover {
+    background-color: #0d47a173;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    padding: 40px 20px 10px 10px;
+  }
+
+h1{
+    margin: 15px;
+    padding-left: 23px;
+}
+h2{
+    padding-left: 13px;
+}
+div.form-group {
+    width: 300px;
+    padding: 15px;
+    padding-left: 40px;
+}
+
+iframe{
+    padding: 15px;
+    padding-left: 40px;
+}
+
+.float {
+    float: right;
+}
+
+div.form-group5 {
+    width: 425px;
+    padding: 20px;
+    padding-left: 40px;
+}
+textarea {
+    display: inline-block;
+    float: right;
+    width: 250px;
+    padding-right: 50px;
+
+}
+.Button {
+    position: absolute;
+    left: 413px;
+    bottom: -32px;
+    margin-bottom: -33px;
+}
+
+.Gegevens{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+
+}
+
+div h1 {
+    paddin: 0;
+    margin: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+footer{
+    background-color: rgb(166,166,166);
+    padding-top: 40px;
+    margin-top: 330px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
